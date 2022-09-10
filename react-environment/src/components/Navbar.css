@@ -1,0 +1,20 @@
+img {
+  height: 2.8rem;
+  width: 2.8rem;
+  margin-right: 0.5rem;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 1.2rem;
+  background-color: #21222a;
+  justify-content: space-between;
+  color: white;
+}
+
+.logo {
+  color: aqua;
+  display: flex;
+  align-items: center;
+}
