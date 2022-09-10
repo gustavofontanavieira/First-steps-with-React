@@ -1,0 +1,32 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.8rem 0;
+  color: #ffd65b;
+}
+
+.nav-items > a {
+  margin-right: 2rem;
+  color: #ffd65b;
+}
+
+.name-logo {
+  margin-left: 2rem;
+  display: flex;
+  align-items: center;
+}
+
+.name-logo > img {
+  margin-right: 1rem;
+}
+
+@media (max-width: 684px) {
+  .nav-items {
+    display: none;
+  }
+
+  .navbar {
+    justify-content: center;
+  }
+}

@@ -1,0 +1,35 @@
+.projects-title {
+  text-align: center;
+}
+
+.horizontal-row {
+  width: 16rem;
+  margin: 0 auto;
+}
+
+.project-item {
+  text-align: justify;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.project-item > p {
+  margin-bottom: 0.5rem;
+}
+
+.project-item > a {
+  color: #ffd65b;
+}
+
+.project-list {
+  margin-left: 3rem;
+}
+
+.project-list > li::marker {
+  color: #ffd65b;
+  font-size: 1.5rem;
+}
+
+.mt-2 {
+  margin-top: 2rem;
+}
