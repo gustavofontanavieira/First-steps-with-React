@@ -24,7 +24,7 @@ export default function Contact() {
         </div>
         <div className="social-media">
           <h2>GitHub</h2>
-          <a href="https://www.instagram.com/guhh_fv/">
+          <a href="https://github.com/gustavofontanavieira">
             <img src={githubLogo} />
           </a>
         </div>
