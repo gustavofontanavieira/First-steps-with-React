@@ -52,7 +52,12 @@
   width: 15rem;
   height: 25rem;
   margin-top: 2rem;
-  margin-left: 8rem;
+}
+
+.card-display {
+  justify-content: center;
+  justify-content: space-evenly;
+  display: flex;
 }
 
 .card--image {
@@ -77,4 +82,13 @@
 
 .card--title {
   margin-left: 0.3rem;
+}
+
+.card-badge {
+  position: absolute;
+  background-color: white;
+  color: grey;
+  font-size: 0.9rem;
+  padding: 0.1rem;
+  margin: 0.5rem 0 0 0.5rem;
 }

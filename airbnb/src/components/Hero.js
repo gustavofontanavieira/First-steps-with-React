@@ -4,7 +4,7 @@ import imageGroup from "../images/Group 77.png";
 export default function Hero() {
   return (
     <section className="hero">
-      <img className="image-group" src={imageGroup} />
+      <img className="image-group" src={imageGroup} alt="group" />
       <div className="hero-description">
         <h1 className="hero-title">Online Experiences</h1>
         <p className="hero-paragraph">

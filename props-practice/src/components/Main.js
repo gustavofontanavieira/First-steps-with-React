@@ -1,7 +1,22 @@
-import Joke from "./Joke";
+import jokesData from "../jokesData";
 
 export default function Main() {
   return (
+    <div>
+      {jokesData.map((joke) => {
+        return (
+          <div>
+            {joke.setup && <h3>{joke.setup}</h3>}
+            <p>{joke.punchline}</p>
+            <hr />
+          </div>
+        );
+      })}
+    </div>
+  );
+}
+
+/*  return (
     <div>
       <Joke
         setup="What’s the best thing about Switzerland?"
@@ -22,5 +37,4 @@ export default function Main() {
         isPun={false}
       />
     </div>
-  );
-}
+  ); */
