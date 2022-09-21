@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar {
+  background-color: #f55a5a;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+.navbar--logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.terra--image {
+  margin-right: 0.5rem;
+}
+
+/* ========================================================================================================================================= */
+.infos {
+  display: flex;
+  padding: 1rem;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 2rem;
+}
+
+.image {
+  margin-right: 1rem;
+}
+
+.description {
+  padding: 1rem;
+}
+
+.description > p {
+  margin-top: 0.7rem;
+}
+
+.image--size {
+  width: 12rem;
+}
+
+hr {
+  width: 75%;
+  margin: 0 auto;
+  margin-top: 1rem;
+}
