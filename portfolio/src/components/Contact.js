@@ -13,25 +13,25 @@ export default function Contact() {
         <div className="social-media">
           <h2>Linkedin</h2>
           <a href="https://www.linkedin.com/in/gustavo-fontana-vieira-741299209/">
-            <img src={linkedinLogo} />
+            <img src={linkedinLogo} alt="linkedin" />
           </a>
         </div>
         <div className="social-media">
           <h2>Instagram</h2>
           <a href="https://www.instagram.com/guhh_fv/">
-            <img src={instagramLogo} />
+            <img src={instagramLogo} alt="instagram" />
           </a>
         </div>
         <div className="social-media">
           <h2>GitHub</h2>
           <a href="https://github.com/gustavofontanavieira">
-            <img src={githubLogo} />
+            <img src={githubLogo} alt="github" />
           </a>
         </div>
         <div className="social-media">
           <h2>E-mail</h2>
           <a href="mailto:gustavoacvvieira@outlook.com">
-            <img src={emailLogo} />
+            <img src={emailLogo} alt="email" />
           </a>
         </div>
       </div>

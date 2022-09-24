@@ -6,7 +6,7 @@ export default function Header() {
   return (
     <header className="header">
       <div className="me">
-        <img src={Me} className="picture" />
+        <img src={Me} className="picture" alt="eu" />
       </div>
       <div className="about-me">
         <h5>
@@ -24,7 +24,7 @@ export default function Header() {
           about ReactJS and CSS.
         </h5>
         <div className="img-position">
-          <img src={d20} className="d20" />
+          <img src={d20} className="d20" alt="d20" />
         </div>
       </div>
     </header>
