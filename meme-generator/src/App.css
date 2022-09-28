@@ -55,3 +55,12 @@
   margin: 1rem auto;
   justify-content: center;
 }
+
+.meme--image {
+  width: 35rem;
+  height: 35rem;
+}
+
+.image--div {
+  text-align: center;
+}

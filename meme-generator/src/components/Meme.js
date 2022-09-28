@@ -1,13 +1,13 @@
 import "../App.css";
 import memeArray from "../MemesData";
+import React from "react";
 
 const Meme = () => {
-  let url;
+  const [meme, setMeme] = React.useState();
   function getMeme() {
     const arrayN = Math.floor(Math.random() * memeArray.length);
     Number(arrayN);
-    url = memeArray[arrayN].url;
-    return url;
+    setMeme(memeArray[arrayN].url);
   }
 
   return (
@@ -27,7 +27,9 @@ const Meme = () => {
       <button className="form--button" onClick={getMeme}>
         Crate a new meme
       </button>
-      <img src={url} alt="meme" />
+      <div className="image--div">
+        <img src={meme} alt="meme" className="meme--image" />
+      </div>
     </div>
   );
 };

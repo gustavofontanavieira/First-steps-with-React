@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: darkred;
+}
+
+.main {
+  margin: 4rem auto;
+  text-align: center;
+  width: 12rem;
+  height: 12rem;
+}
+
+.counter {
+  margin: 0 auto;
+  width: 6rem;
+  height: 6rem;
+  border-radius: 10rem;
+  background-color: whitesmoke;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn {
+  background-color: grey;
+  color: white;
+  font-size: 2rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 10rem;
+  border-width: 0;
+}
+
+.buttons {
+  margin-top: 0.8rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
