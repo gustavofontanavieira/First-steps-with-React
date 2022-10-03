@@ -1,5 +1,6 @@
 import "./App.css";
 import React from "react";
+import Count from "./component/Count";
 
 function App() {
   const [count, setCount] = React.useState(0);
@@ -14,9 +15,7 @@ function App() {
 
   return (
     <div className="main">
-      <div className="counter">
-        <h1>{count}</h1>
-      </div>
+      <Count number={count} />
       <div className="buttons">
         <button className="btn" onClick={less}>
           -

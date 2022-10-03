@@ -47,7 +47,11 @@
   padding: 1rem;
   width: 95%;
   font-size: 1rem;
-  background-image: linear-gradient(to right, purple, rgb(149, 70, 136));
+  background-image: linear-gradient(
+    to right,
+    rgb(57, 0, 57),
+    rgb(149, 70, 136)
+  );
   border-radius: 0.5rem;
   color: white;
   border-width: 0;
